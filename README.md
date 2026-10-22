@@ -20,6 +20,17 @@ engineering preparation. It supports:
 
 See [`system-design/README.md`](system-design/README.md) for detailed usage.
 
+### `mock-ai-round/`
+
+The [`mock-ai-round/`](mock-ai-round/) directory contains a HackerRank-style
+AI-assisted coding exercise coach. Make the directory available in your AI
+coding assistant's skills directory, then ask it to set up a round, optionally
+with a topic or language—for example, “Set up a mock AI coding round in Python
+about retrying a flaky API call.” It presents the requirements and starter-test
+instructions, then collaborates on debugging, coverage, verification, and
+interview follow-ups. See the [skill README](mock-ai-round/README.md) for more
+examples and usage details.
+
 ## Using these skills with an AI agent
 
 1. Choose the skill folder relevant to your preparation.
